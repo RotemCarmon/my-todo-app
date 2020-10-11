@@ -51,6 +51,8 @@ function getTodoById(todoId) {
 function someFunc(){
     // something
     // more stuff
+    // jdll
+    // lkdsfjlkdsj
 }
 
 function addTodo() {
