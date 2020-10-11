@@ -48,9 +48,14 @@ function getTodoById(todoId) {
     });
 }
 
+function someFunc(){
+    // something
+    // more stuff
+}
+
 function addTodo() {
     var todoTxt = document.querySelector('.add-todo').value;
-    console.log('TodoTxt', todoTxt);
+    console.log('Hello');
     var newTodo = createTodo(todoTxt)
     gTodos.unshift(newTodo)
     renderTodos();
